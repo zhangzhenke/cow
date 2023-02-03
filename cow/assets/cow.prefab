@@ -1,0 +1,207 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "cow",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 7
+      }
+    ],
+    "_prefab": {
+      "__id__": 8
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 354,
+      "height": 293
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.20997740112994348,
+      "y": 0.4300887372013652
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        527,
+        -3,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "2e987942-750a-40c3-98bc-7ba8bee81947"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "68939R6FoxJg6xvDlEoSi+D",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "cow_sets": [
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 6
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cow_skin",
+    "cows": [
+      {
+        "__uuid__": "2e987942-750a-40c3-98bc-7ba8bee81947"
+      },
+      {
+        "__uuid__": "77acbf8d-7abc-49fe-ad37-f58757e8e139"
+      },
+      {
+        "__uuid__": "4072c2e0-b85c-48a6-bf11-0bd18a0e6105"
+      }
+    ]
+  },
+  {
+    "__type__": "cow_skin",
+    "cows": [
+      {
+        "__uuid__": "cf9fc7b5-1c2f-4590-8c34-880f60d6351c"
+      },
+      {
+        "__uuid__": "cb4b8d8e-4f4c-424c-8942-57782058620a"
+      },
+      {
+        "__uuid__": "c52b1a42-5e3e-4447-88ed-26a9308faeac"
+      }
+    ]
+  },
+  {
+    "__type__": "cow_skin",
+    "cows": [
+      {
+        "__uuid__": "9f55752f-e95d-4586-a0d8-2568a9d8d693"
+      },
+      {
+        "__uuid__": "14986124-62d1-4126-8e3a-2a6df31e03a9"
+      },
+      {
+        "__uuid__": "946bdad4-f3be-4230-a224-a9d0285a12a0"
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_defaultClip": {
+      "__uuid__": "2884ad43-24b9-4255-91f8-fae416f651c8"
+    },
+    "_clips": [
+      {
+        "__uuid__": "2884ad43-24b9-4255-91f8-fae416f651c8"
+      }
+    ],
+    "playOnLoad": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bd875d10-f96e-46a7-a457-6f72f4ab8d9f"
+    },
+    "fileId": "d8waFfE1ZJyajM8uOTsMn1",
+    "sync": false
+  }
+]
